@@ -12,6 +12,8 @@ git branch -m <name> - replace current branchs name
 git add <filename> - add file to track-list
 git add . - add all files that exist into current directory
 git commit -m "<message_that_discribe_what_was_changed/added>" - add filles to buffer 
+git pull - get actual version of product  
+git clone - <http_git_string> - get remote project
 
 
 // .gitignore - file that consist exceptions .
