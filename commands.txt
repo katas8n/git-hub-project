@@ -7,4 +7,4 @@ touch - create file
 rm -rf <name_of_file/or/directory> - delete file 
 clear - clear console 
 
-------------------------------------------------
+------------------------------------------------ ;)
