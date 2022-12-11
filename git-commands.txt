@@ -12,6 +12,10 @@ git branch -m <name> - replace current branchs name
 git add <filename> - add file to track-list
 git add . - add all files that exist into current directory
 git commit -m "<message_that_discribe_what_was_changed/added>" - add filles to buffer 
+git branch - show branches in a project 
+git checkout <name_of_branch> -> change current branch on <name_of_branch>
+git log - get commits and also info about current branch etc.
+git status - what happening with project ( get info about project  )
 
 
 // .gitignore - file that consist exceptions .
