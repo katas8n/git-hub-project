@@ -1,10 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Application</title>
-  </head>
-  
-  <body>
-    <h1>Hello user!</h1>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="./public/icons/logo.svg"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./public/styles/style.css" />
+        <title>Our first project</title>
+    </head>
+
+    <body>
+        <!-- ! Anti-pattern -->
+        <!-- <h1><p><a href=""></a></p></h1> -->
+
+        <!-- * TAGS -->
+        <!-- * Block , inline -->
+        <!-- <a href="https://google.com">Google</a>
+        <a href="https://facebook.com">Fb</a>
+        <a href="https://udemy.com">Udemy</a>
+
+        <h1>Hello</h1>
+        <h2>World</h2>
+        <h3>glad</h3>
+        <h4>to</h4>
+        <h5>see</h5>
+        <h6>you</h6> -->
+
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            velit optio neque nisi enim sapiente voluptatem rerum veniam,
+            assumenda alias eius iste eveniet nihil mollitia, adipisci
+            dignissimos omnis maiores! Iusto?
+        </p> -->
+
+        <!-- DIV (block) / SPAN (inline) -->
+        <!-- <div>Hello</div>
+        <div>World</div>
+
+        <span>World</span>
+        <span>Hello</span> -->
+
+        <!-- * Semantic -->
+        <!-- ! header, main , footer , aside , section , nav ... -->
+        <div id="app">
+            <header>
+                <nav>
+                    <!-- unordred list -->
+                    <ul class="items">
+                        <!-- list-item -->
+                        <li>Home</li>
+                        <li>Category</li>
+                        <li>Login</li>
+                    </ul>
+
+                    <ul class="items second">
+                        <li>Home</li>
+                        <li>Category</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <h1>Pie recipe</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Earum excepturi, inventore dignissimos, beatae quod, et
+                    nobis voluptate itaque dolores sequi tempore voluptas
+                    maiores doloremque cum.
+                </p>
+
+                <hr />
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    animi vitae iusto quod?
+                </p>
+
+                <hr />
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae perferendis, sit architecto, sint, odit blanditiis
+                    harum facere deleniti pariatur minima numquam natus
+                    assumenda.
+                </p>
+            </main>
+
+            <footer>
+                <span id="footer-title" class="footer__title">
+                    All rights reserved (c) 2022
+                </span>
+            </footer>
+        </div>
+        <!-- 
+        <script>
+            const container = document.getElementById('container');
+
+            console.log(container);
+
+            container.addEventListener('click', e => {
+                e.preventDefault();
+
+                alert('Hello user');
+            });
+        </script> -->
+    </body>
 </html>

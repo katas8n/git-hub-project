@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    /* 1rem = 16px */
+    font-size: 2rem;
+}
+
+li {
+    display: inline;
+}
+
+.items {
+    text-align: start;
+}
+
+.second {
+    text-align: end;
+
+}
+
+header {
+    background-color: darkcyan;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: aqua;
+}
+
+/* #footer-title {
+    background: linear-gradient( fuchsia, aqua);    
+    transition: ease 400ms;
+}
+
+.footer__title {
+    background: linear-gradient(aqua , fuchsia);
+} */
+
+span {
+    display: inline-block;
+    padding: 2rem;
+    background: fuchsia ;
+    animation: rainbow 2000ms ease-in-out infinite;
+}
+
+/* ! keyframes */
+
+
+@keyframes rainbow {
+    0% {
+        background-color: orchid;
+    }
+    
+    25% {
+        background-color: fuchsia;
+    }
+
+    50% {
+        background-color: darkmagenta;
+    }
+
+    75% {
+        background-color: darkviolet;
+    }
+
+    100% {
+        background-color: violet;
+    }
+}
