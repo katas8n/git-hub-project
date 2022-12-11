@@ -1,4 +1,17 @@
+// Statuses
+
+untrackted - git doesn't looks at files
+added - git added file to track (into Buffer)
+modified - files is tracked ,but was modified
+
+
+// Commands
+
 git init - initialize current directory as an repository
 git branch -m <name> - replace current branchs name 
 git add <filename> - add file to track-list
 git add . - add all files that exist into current directory
+git commit -m "<message_that_discribe_what_was_changed/added>" - add filles to buffer 
+
+
+// .gitignore - file that consist exceptions .
