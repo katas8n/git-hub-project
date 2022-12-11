@@ -1,0 +1,4 @@
+git init - initialize current directory as an repository
+git branch -m <name> - replace current branchs name 
+git add <filename> - add file to track-list
+git add . - add all files that exist into current directory
